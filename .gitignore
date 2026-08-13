@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.ruff_cache
+.venv
+*.pyc
+.env
+.env.*
+*.cookie
+*cookie.txt
+temp_cookie*

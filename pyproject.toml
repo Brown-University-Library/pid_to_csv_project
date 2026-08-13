@@ -1,0 +1,15 @@
+[project]
+name = "pid-to-csv"
+version = "0.1.0"
+description = "Creates Google Sheets-ready CSV files from BDR PIDs."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "httpx~=0.28.0",
+]
+
+[dependency-groups]
+local = []
+staging = []
+prod = []
+
