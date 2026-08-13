@@ -30,7 +30,7 @@ All necessary data is passed in via flags; no envars or dot-env are needed.
 ```bash
 mkdir ./pid_to_csv_project_stuff
 cd ./pid_to_csv_project_stuff
-git clone url-coming to pid_to_csv_project
+git clone git@github.com:Brown-University-Library/pid_to_csv_project.git
 cd ./pid_to_csv_project
 uv sync
 uv run ./run_tests.py
