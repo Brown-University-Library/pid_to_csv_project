@@ -22,6 +22,8 @@ Uses the BDR APIs, when needed -- to get items from a collection, sub-collection
 
 Motivation: we needed to populate a spreadsheet with PIDS of dev-items we don't want deleted during a migration.
 
+All necessary data is passed in via flags; no envars or dot-env are needed.
+
 
 ## Setup
 
