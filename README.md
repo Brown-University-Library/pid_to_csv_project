@@ -18,6 +18,8 @@ Script to create a CSV of pids.
 
 Creates a UTF-8 CSV with the columns `PID` and `Reason`, ready to upload to Google Sheets and append to an existing sheet.
 
+Uses the BDR APIs, when needed -- to get items from a collection, sub-collections, and parts-references.
+
 Motivation: we needed to populate a spreadsheet with PIDS of dev-items we don't want deleted during a migration.
 
 
